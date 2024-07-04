@@ -1,3 +1,3 @@
-# flix_id
+# CinemaTimorApp
 
 A new Flutter project.
