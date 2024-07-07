@@ -1,6 +1,7 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flix_id/presentation/extensions/build_context_extension.dart';
 import 'package:flix_id/presentation/misc/methods.dart';
+import 'package:flix_id/presentation/pages/profile_page/profile_page.dart';
 import 'package:flix_id/presentation/providers/router/router_provider.dart';
 import 'package:flix_id/presentation/providers/user_data/user_data_provider.dart';
 import 'package:flix_id/presentation/widgets/bottom_navbar.dart';
@@ -37,7 +38,7 @@ class _MainPageState extends ConsumerState<MainPage> {
             children: [
               Center(child: Text('Pagina Filme')),
               Center(child: Text('Pagina Tickete')),
-              Center(child: Text('Pagina Profile')),
+              Center(child: ProfilePage()),
             ],
           ),
           BottomNavbar(
