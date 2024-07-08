@@ -6,4 +6,4 @@ part 'movie_repository_provider.g.dart';
 
 @riverpod
 MovieRepository movieRepository(MovieRepositoryRef ref) =>
-    TMDBMovieRepository();
+    TmdbMovieRepository();

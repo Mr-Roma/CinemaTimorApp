@@ -18,9 +18,7 @@ class GetMovieDetail
 
     return switch (movieDetailResult) {
       Success(value: final MovieDetail) => Result.success(MovieDetail),
-      Failed(:final message) => Result.failed(
-          message,
-        )
+      Failed(:final message) => Result.failed(message)
     };
   }
 }

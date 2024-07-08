@@ -17,15 +17,14 @@ class Upcoming extends _$Upcoming {
 
     GetMovieList getMovieList = ref.read(getMovieListProvider);
 
-    var result = await getMovieList(GetMovieListParam(
-        category: MovieListCategories.nowPlaying, page: page));
+    var result = await getMovieList(
+        GetMovieListParam(category: MovieListCategories.upcoming, page: page));
 
     switch (result) {
       case Success(value: final movies):
         state = AsyncData(movies);
-      case Failed(message: final message):
-        state = AsyncError(message,
-            StackTrace.current); // Pass the message or appropriate argument
+      case Failed(message: _):
+        state = const AsyncData([]);
     }
   }
 }

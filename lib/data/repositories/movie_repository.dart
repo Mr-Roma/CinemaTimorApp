@@ -8,8 +8,4 @@ abstract interface class MovieRepository {
   Future<Result<List<Movie>>> getUpcoming({int page = 1});
   Future<Result<MovieDetail>> getDetail({required int id});
   Future<Result<List<Actor>>> getActors({required int id});
-
-  getNowPlayingMovies(int page) {}
-
-  getUpcomingMovies(int page) {}
 }
