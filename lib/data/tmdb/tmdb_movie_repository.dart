@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
-import 'package:flix_id/data/repositories/movie_repository.dart';
-import 'package:flix_id/domain/entities/actor.dart';
-import 'package:flix_id/domain/entities/movie.dart';
-import 'package:flix_id/domain/entities/movie_detail.dart';
-import 'package:flix_id/domain/entities/result.dart';
+import 'package:cinematl_app/data/repositories/movie_repository.dart';
+import 'package:cinematl_app/domain/entities/actor.dart';
+import 'package:cinematl_app/domain/entities/movie.dart';
+import 'package:cinematl_app/domain/entities/movie_detail.dart';
+import 'package:cinematl_app/domain/entities/result.dart';
 
 class TmdbMovieRepository implements MovieRepository {
   final Dio? _dio;

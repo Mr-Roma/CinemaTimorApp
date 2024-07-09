@@ -1,8 +1,8 @@
-import 'package:flix_id/data/repositories/transaction_repository.dart';
-import 'package:flix_id/domain/entities/result.dart';
-import 'package:flix_id/domain/entities/transaction.dart';
-import 'package:flix_id/domain/usecases/get_transactions/get_transactions_param.dart';
-import 'package:flix_id/domain/usecases/usecase.dart';
+import 'package:cinematl_app/data/repositories/transaction_repository.dart';
+import 'package:cinematl_app/domain/entities/result.dart';
+import 'package:cinematl_app/domain/entities/transaction.dart';
+import 'package:cinematl_app/domain/usecases/get_transactions/get_transactions_param.dart';
+import 'package:cinematl_app/domain/usecases/usecase.dart';
 
 class GetTransactions
     implements Usecase<Result<List<Transaction>>, GetTransactionsParam> {

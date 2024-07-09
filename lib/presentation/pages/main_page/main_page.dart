@@ -1,11 +1,11 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:flix_id/presentation/extensions/build_context_extension.dart';
-import 'package:flix_id/presentation/pages/movie_pages/movie_page.dart';
-import 'package:flix_id/presentation/pages/profile_page/profile_page.dart';
-import 'package:flix_id/presentation/providers/router/router_provider.dart';
-import 'package:flix_id/presentation/providers/user_data/user_data_provider.dart';
-import 'package:flix_id/presentation/widgets/bottom_navbar.dart';
-import 'package:flix_id/presentation/widgets/bottom_navbar_item.dart';
+import 'package:cinematl_app/presentation/extensions/build_context_extension.dart';
+import 'package:cinematl_app/presentation/pages/movie_pages/movie_page.dart';
+import 'package:cinematl_app/presentation/pages/profile_page/profile_page.dart';
+import 'package:cinematl_app/presentation/providers/router/router_provider.dart';
+import 'package:cinematl_app/presentation/providers/user_data/user_data_provider.dart';
+import 'package:cinematl_app/presentation/widgets/bottom_navbar.dart';
+import 'package:cinematl_app/presentation/widgets/bottom_navbar_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

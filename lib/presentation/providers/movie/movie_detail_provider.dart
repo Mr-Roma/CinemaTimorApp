@@ -1,9 +1,9 @@
-import 'package:flix_id/domain/entities/movie.dart';
-import 'package:flix_id/domain/entities/movie_detail.dart';
-import 'package:flix_id/domain/entities/result.dart';
-import 'package:flix_id/domain/usecases/get_movie_detail/get_movie_detail.dart';
-import 'package:flix_id/domain/usecases/get_movie_detail/get_movie_detail_param.dart';
-import 'package:flix_id/presentation/providers/usecases/get_movie_detail_provider.dart';
+import 'package:cinematl_app/domain/entities/movie.dart';
+import 'package:cinematl_app/domain/entities/movie_detail.dart';
+import 'package:cinematl_app/domain/entities/result.dart';
+import 'package:cinematl_app/domain/usecases/get_movie_detail/get_movie_detail.dart';
+import 'package:cinematl_app/domain/usecases/get_movie_detail/get_movie_detail_param.dart';
+import 'package:cinematl_app/presentation/providers/usecases/get_movie_detail_provider.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'movie_detail_provider.g.dart';

@@ -1,8 +1,8 @@
-import 'package:flix_id/data/repositories/transaction_repository.dart';
-import 'package:flix_id/domain/entities/result.dart';
-import 'package:flix_id/domain/usecases/create_transaction/create_transaction_param.dart';
-import 'package:flix_id/domain/usecases/usecase.dart';
-import 'package:flix_id/domain/entities/transaction.dart'; // Import the correct Transaction class
+import 'package:cinematl_app/data/repositories/transaction_repository.dart';
+import 'package:cinematl_app/domain/entities/result.dart';
+import 'package:cinematl_app/domain/usecases/create_transaction/create_transaction_param.dart';
+import 'package:cinematl_app/domain/usecases/usecase.dart';
+import 'package:cinematl_app/domain/entities/transaction.dart'; // Import the correct Transaction class
 
 class CreateTransaction
     implements Usecase<Result<void>, CreateTransactionParam> {

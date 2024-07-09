@@ -1,8 +1,8 @@
-import 'package:flix_id/data/repositories/user_repository.dart';
-import 'package:flix_id/domain/entities/result.dart';
-import 'package:flix_id/domain/entities/user.dart';
-import 'package:flix_id/domain/usecases/upload_profile_picture/upload_profile_picture_param.dart';
-import 'package:flix_id/domain/usecases/usecase.dart';
+import 'package:cinematl_app/data/repositories/user_repository.dart';
+import 'package:cinematl_app/domain/entities/result.dart';
+import 'package:cinematl_app/domain/entities/user.dart';
+import 'package:cinematl_app/domain/usecases/upload_profile_picture/upload_profile_picture_param.dart';
+import 'package:cinematl_app/domain/usecases/usecase.dart';
 
 class UploadProfilePicture
     implements Usecase<Result<User>, UploadProfilePictureParam> {

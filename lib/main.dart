@@ -1,8 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
-import 'package:flix_id/firebase_options.dart';
-import 'package:flix_id/presentation/misc/constant.dart';
+import 'package:cinematl_app/firebase_options.dart';
+import 'package:cinematl_app/presentation/misc/constant.dart';
 
-import 'package:flix_id/presentation/providers/router/router_provider.dart';
+import 'package:cinematl_app/presentation/providers/router/router_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';

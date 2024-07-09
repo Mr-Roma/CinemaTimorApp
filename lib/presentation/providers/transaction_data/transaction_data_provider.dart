@@ -1,10 +1,10 @@
-import 'package:flix_id/domain/entities/result.dart';
-import 'package:flix_id/domain/entities/transaction.dart';
-import 'package:flix_id/domain/entities/user.dart';
-import 'package:flix_id/domain/usecases/get_transactions/get_transactions.dart';
-import 'package:flix_id/domain/usecases/get_transactions/get_transactions_param.dart';
-import 'package:flix_id/presentation/providers/usecases/get_transaction_provider.dart';
-import 'package:flix_id/presentation/providers/user_data/user_data_provider.dart';
+import 'package:cinematl_app/domain/entities/result.dart';
+import 'package:cinematl_app/domain/entities/transaction.dart';
+import 'package:cinematl_app/domain/entities/user.dart';
+import 'package:cinematl_app/domain/usecases/get_transactions/get_transactions.dart';
+import 'package:cinematl_app/domain/usecases/get_transactions/get_transactions_param.dart';
+import 'package:cinematl_app/presentation/providers/usecases/get_transaction_provider.dart';
+import 'package:cinematl_app/presentation/providers/user_data/user_data_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 

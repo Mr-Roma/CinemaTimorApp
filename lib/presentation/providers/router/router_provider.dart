@@ -1,13 +1,13 @@
-import 'package:flix_id/domain/entities/movie.dart';
-import 'package:flix_id/domain/entities/movie_detail.dart';
-import 'package:flix_id/domain/entities/transaction.dart';
-import 'package:flix_id/presentation/pages/booking_page/time_booking_page.dart';
-import 'package:flix_id/presentation/pages/detail_page/detail_page.dart';
-import 'package:flix_id/presentation/pages/login_page/login_page.dart';
-import 'package:flix_id/presentation/pages/main_page/main_page.dart';
-import 'package:flix_id/presentation/pages/register_page/register_page.dart';
-import 'package:flix_id/presentation/pages/seat_booking_page/seat_booking_page.dart';
-import 'package:flix_id/presentation/pages/splash_page/splash_page.dart'; // import the SplashPage
+import 'package:cinematl_app/domain/entities/movie.dart';
+import 'package:cinematl_app/domain/entities/movie_detail.dart';
+import 'package:cinematl_app/domain/entities/transaction.dart';
+import 'package:cinematl_app/presentation/pages/booking_page/time_booking_page.dart';
+import 'package:cinematl_app/presentation/pages/detail_page/detail_page.dart';
+import 'package:cinematl_app/presentation/pages/login_page/login_page.dart';
+import 'package:cinematl_app/presentation/pages/main_page/main_page.dart';
+import 'package:cinematl_app/presentation/pages/register_page/register_page.dart';
+import 'package:cinematl_app/presentation/pages/seat_booking_page/seat_booking_page.dart';
+import 'package:cinematl_app/presentation/pages/splash_page/splash_page.dart'; // import the SplashPage
 import 'package:go_router/go_router.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 

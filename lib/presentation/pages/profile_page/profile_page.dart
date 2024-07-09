@@ -1,7 +1,7 @@
-import 'package:flix_id/presentation/misc/methods.dart';
-import 'package:flix_id/presentation/pages/profile_page/methods_profile/profile_item_method.dart';
-import 'package:flix_id/presentation/pages/profile_page/methods_profile/user_info_method.dart';
-import 'package:flix_id/presentation/providers/user_data/user_data_provider.dart';
+import 'package:cinematl_app/presentation/misc/methods.dart';
+import 'package:cinematl_app/presentation/pages/profile_page/methods_profile/profile_item_method.dart';
+import 'package:cinematl_app/presentation/pages/profile_page/methods_profile/user_info_method.dart';
+import 'package:cinematl_app/presentation/providers/user_data/user_data_provider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';

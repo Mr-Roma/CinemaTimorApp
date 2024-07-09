@@ -1,4 +1,4 @@
-import 'package:flix_id/domain/entities/result.dart';
+import 'package:cinematl_app/domain/entities/result.dart';
 
 abstract interface class Authentication {
   Future<Result<String>> register(

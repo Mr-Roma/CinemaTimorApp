@@ -1,11 +1,11 @@
-import 'package:flix_id/presentation/misc/methods.dart';
-import 'package:flix_id/presentation/pages/movie_pages/movie_list.dart';
-import 'package:flix_id/presentation/pages/movie_pages/promotion_list.dart';
-import 'package:flix_id/presentation/pages/movie_pages/search_bar.dart';
-import 'package:flix_id/presentation/pages/movie_pages/user_info.dart';
-import 'package:flix_id/presentation/providers/movie/now_playing_provider.dart';
-import 'package:flix_id/presentation/providers/movie/upcoming_provider.dart';
-import 'package:flix_id/presentation/providers/router/router_provider.dart';
+import 'package:cinematl_app/presentation/misc/methods.dart';
+import 'package:cinematl_app/presentation/pages/movie_pages/movie_list.dart';
+import 'package:cinematl_app/presentation/pages/movie_pages/promotion_list.dart';
+import 'package:cinematl_app/presentation/pages/movie_pages/search_bar.dart';
+import 'package:cinematl_app/presentation/pages/movie_pages/user_info.dart';
+import 'package:cinematl_app/presentation/providers/movie/now_playing_provider.dart';
+import 'package:cinematl_app/presentation/providers/movie/upcoming_provider.dart';
+import 'package:cinematl_app/presentation/providers/router/router_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

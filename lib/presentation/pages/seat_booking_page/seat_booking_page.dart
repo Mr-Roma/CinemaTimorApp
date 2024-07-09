@@ -1,6 +1,6 @@
-import 'package:flix_id/domain/entities/movie_detail.dart';
-import 'package:flix_id/domain/entities/transaction.dart';
-import 'package:flix_id/presentation/providers/movie/movie_detail_provider.dart';
+import 'package:cinematl_app/domain/entities/movie_detail.dart';
+import 'package:cinematl_app/domain/entities/transaction.dart';
+import 'package:cinematl_app/presentation/providers/movie/movie_detail_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

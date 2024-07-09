@@ -1,5 +1,5 @@
-import 'package:flix_id/data/repositories/authentication.dart';
-import 'package:flix_id/domain/entities/result.dart';
+import 'package:cinematl_app/data/repositories/authentication.dart';
+import 'package:cinematl_app/domain/entities/result.dart';
 
 class DummyAuthentication implements Authentication {
   @override

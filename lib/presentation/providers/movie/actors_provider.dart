@@ -1,8 +1,8 @@
-import 'package:flix_id/domain/entities/actor.dart';
-import 'package:flix_id/domain/entities/result.dart';
-import 'package:flix_id/domain/usecases/get_actors/get_actors.dart';
-import 'package:flix_id/domain/usecases/get_actors/get_actors_param.dart';
-import 'package:flix_id/presentation/providers/usecases/get_actors_provider.dart';
+import 'package:cinematl_app/domain/entities/actor.dart';
+import 'package:cinematl_app/domain/entities/result.dart';
+import 'package:cinematl_app/domain/usecases/get_actors/get_actors.dart';
+import 'package:cinematl_app/domain/usecases/get_actors/get_actors_param.dart';
+import 'package:cinematl_app/presentation/providers/usecases/get_actors_provider.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'actors_provider.g.dart';

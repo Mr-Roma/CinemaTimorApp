@@ -1,5 +1,5 @@
-import 'package:flix_id/domain/entities/movie_detail.dart';
-import 'package:flix_id/presentation/misc/methods.dart';
+import 'package:cinematl_app/domain/entities/movie_detail.dart';
+import 'package:cinematl_app/presentation/misc/methods.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

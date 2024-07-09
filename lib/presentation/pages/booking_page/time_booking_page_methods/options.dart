@@ -1,5 +1,5 @@
-import 'package:flix_id/presentation/misc/methods.dart';
-import 'package:flix_id/presentation/widgets/selectable_card.dart';
+import 'package:cinematl_app/presentation/misc/methods.dart';
+import 'package:cinematl_app/presentation/widgets/selectable_card.dart';
 import 'package:flutter/material.dart';
 
 List<Widget> options<T>({

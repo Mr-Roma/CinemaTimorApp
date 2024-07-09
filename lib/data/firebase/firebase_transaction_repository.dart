@@ -1,7 +1,7 @@
-import 'package:flix_id/data/firebase/firebase_user_repository.dart';
-import 'package:flix_id/data/repositories/transaction_repository.dart';
-import 'package:flix_id/domain/entities/result.dart';
-import 'package:flix_id/domain/entities/transaction.dart';
+import 'package:cinematl_app/data/firebase/firebase_user_repository.dart';
+import 'package:cinematl_app/data/repositories/transaction_repository.dart';
+import 'package:cinematl_app/domain/entities/result.dart';
+import 'package:cinematl_app/domain/entities/transaction.dart';
 
 import 'package:cloud_firestore/cloud_firestore.dart' as firestore;
 

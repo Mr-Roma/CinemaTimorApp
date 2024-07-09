@@ -1,7 +1,7 @@
-import 'package:flix_id/domain/entities/movie.dart';
-import 'package:flix_id/presentation/misc/methods.dart';
-import 'package:flix_id/presentation/providers/movie/actors_provider.dart';
-import 'package:flix_id/presentation/widgets/network_image_card.dart';
+import 'package:cinematl_app/domain/entities/movie.dart';
+import 'package:cinematl_app/presentation/misc/methods.dart';
+import 'package:cinematl_app/presentation/providers/movie/actors_provider.dart';
+import 'package:cinematl_app/presentation/widgets/network_image_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

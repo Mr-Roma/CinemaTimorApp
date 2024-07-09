@@ -1,6 +1,6 @@
-import 'package:flix_id/presentation/extensions/build_context_extension.dart';
-import 'package:flix_id/presentation/misc/methods.dart';
-import 'package:flix_id/presentation/widgets/cinema_textfield.dart';
+import 'package:cinematl_app/presentation/extensions/build_context_extension.dart';
+import 'package:cinematl_app/presentation/misc/methods.dart';
+import 'package:cinematl_app/presentation/widgets/cinema_textfield.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

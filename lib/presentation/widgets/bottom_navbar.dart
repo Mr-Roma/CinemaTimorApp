@@ -2,7 +2,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 
-import 'package:flix_id/presentation/widgets/bottom_navbar_item.dart';
+import 'package:cinematl_app/presentation/widgets/bottom_navbar_item.dart';
 import 'package:flutter/material.dart';
 
 class BottomNavbar extends StatelessWidget {

@@ -1,5 +1,5 @@
-import 'package:flix_id/domain/entities/movie.dart';
-import 'package:flix_id/presentation/misc/constant.dart';
+import 'package:cinematl_app/domain/entities/movie.dart';
+import 'package:cinematl_app/presentation/misc/constant.dart';
 import 'package:flutter/material.dart';
 
 List<Widget> background(Movie movie) => [

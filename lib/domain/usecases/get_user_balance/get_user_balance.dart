@@ -1,7 +1,7 @@
-import 'package:flix_id/data/repositories/user_repository.dart';
-import 'package:flix_id/domain/entities/result.dart';
-import 'package:flix_id/domain/usecases/get_user_balance/get_user_balance_param.dart';
-import 'package:flix_id/domain/usecases/usecase.dart';
+import 'package:cinematl_app/data/repositories/user_repository.dart';
+import 'package:cinematl_app/domain/entities/result.dart';
+import 'package:cinematl_app/domain/usecases/get_user_balance/get_user_balance_param.dart';
+import 'package:cinematl_app/domain/usecases/usecase.dart';
 
 class GetUserBalance implements Usecase<Result<int>, GetUserBalanceParam> {
   final UserRepository _userRepository;

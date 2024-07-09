@@ -1,8 +1,8 @@
-import 'package:flix_id/data/repositories/authentication.dart';
-import 'package:flix_id/data/repositories/user_repository.dart';
-import 'package:flix_id/domain/entities/result.dart';
-import 'package:flix_id/domain/entities/user.dart';
-import 'package:flix_id/domain/usecases/usecase.dart';
+import 'package:cinematl_app/data/repositories/authentication.dart';
+import 'package:cinematl_app/data/repositories/user_repository.dart';
+import 'package:cinematl_app/domain/entities/result.dart';
+import 'package:cinematl_app/domain/entities/user.dart';
+import 'package:cinematl_app/domain/usecases/usecase.dart';
 
 class GetLoggedInUser implements Usecase<Result<User>, void> {
   final Authentication _authentication;

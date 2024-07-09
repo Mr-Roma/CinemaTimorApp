@@ -1,15 +1,15 @@
-import 'package:flix_id/domain/entities/movie.dart';
-import 'package:flix_id/domain/entities/movie_detail.dart';
-import 'package:flix_id/presentation/misc/constant.dart';
-import 'package:flix_id/presentation/misc/methods.dart';
-import 'package:flix_id/presentation/pages/detail_page/method_detail_page/background.dart';
-import 'package:flix_id/presentation/pages/detail_page/method_detail_page/cast_and_crew.dart';
-import 'package:flix_id/presentation/pages/detail_page/method_detail_page/movie_overview.dart';
-import 'package:flix_id/presentation/pages/detail_page/method_detail_page/movie_short_info.dart';
-import 'package:flix_id/presentation/providers/movie/movie_detail_provider.dart';
-import 'package:flix_id/presentation/providers/router/router_provider.dart';
-import 'package:flix_id/presentation/widgets/back_navigation_bar.dart';
-import 'package:flix_id/presentation/widgets/network_image_card.dart';
+import 'package:cinematl_app/domain/entities/movie.dart';
+import 'package:cinematl_app/domain/entities/movie_detail.dart';
+import 'package:cinematl_app/presentation/misc/constant.dart';
+import 'package:cinematl_app/presentation/misc/methods.dart';
+import 'package:cinematl_app/presentation/pages/detail_page/method_detail_page/background.dart';
+import 'package:cinematl_app/presentation/pages/detail_page/method_detail_page/cast_and_crew.dart';
+import 'package:cinematl_app/presentation/pages/detail_page/method_detail_page/movie_overview.dart';
+import 'package:cinematl_app/presentation/pages/detail_page/method_detail_page/movie_short_info.dart';
+import 'package:cinematl_app/presentation/providers/movie/movie_detail_provider.dart';
+import 'package:cinematl_app/presentation/providers/router/router_provider.dart';
+import 'package:cinematl_app/presentation/widgets/back_navigation_bar.dart';
+import 'package:cinematl_app/presentation/widgets/network_image_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
