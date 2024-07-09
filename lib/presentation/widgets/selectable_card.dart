@@ -17,17 +17,22 @@ class SelectableCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: isEnable ? onTap : null,
-      child: Container(
-        decoration: BoxDecoration(
-            color: isSelected ? saffron.withOpacity(0.3) : null,
-            borderRadius: BorderRadius.circular(5),
-            border: Border.all(color: isEnable ? saffron : Colors.grey)),
-        child: Center(
-          child: Text(
-            text,
-            style: TextStyle(
-                color: isEnable ? ghostWhite : Colors.grey,
-                fontWeight: FontWeight.bold),
+      child: Padding(
+        padding: EdgeInsets.all(5),
+        child: Container(
+          width: 150,
+          height: 50,
+          decoration: BoxDecoration(
+              color: isSelected ? saffron.withOpacity(0.3) : null,
+              borderRadius: BorderRadius.circular(5),
+              border: Border.all(color: isEnable ? saffron : Colors.grey)),
+          child: Center(
+            child: Text(
+              text,
+              style: TextStyle(
+                  color: isEnable ? ghostWhite : Colors.grey,
+                  fontWeight: FontWeight.bold),
+            ),
           ),
         ),
       ),

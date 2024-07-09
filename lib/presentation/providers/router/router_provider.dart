@@ -1,10 +1,12 @@
 import 'package:flix_id/domain/entities/movie.dart';
 import 'package:flix_id/domain/entities/movie_detail.dart';
+import 'package:flix_id/domain/entities/transaction.dart';
 import 'package:flix_id/presentation/pages/booking_page/time_booking_page.dart';
 import 'package:flix_id/presentation/pages/detail_page/detail_page.dart';
 import 'package:flix_id/presentation/pages/login_page/login_page.dart';
 import 'package:flix_id/presentation/pages/main_page/main_page.dart';
 import 'package:flix_id/presentation/pages/register_page/register_page.dart';
+import 'package:flix_id/presentation/pages/seat_booking_page/seat_booking_page.dart';
 import 'package:flix_id/presentation/pages/splash_page/splash_page.dart'; // import the SplashPage
 import 'package:go_router/go_router.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
@@ -39,8 +41,14 @@ Raw<GoRouter> router(RouterRef ref) => GoRouter(
           GoRoute(
               path: '/time-booking',
               name: 'time-booking',
-              builder: (context, state) => TimeBookingPage(
-                  state.extra as MovieDetail)), // add the SplashPage route
+              builder: (context, state) =>
+                  TimeBookingPage(state.extra as MovieDetail)),
+          GoRoute(
+              path: '/seat-booking',
+              name: 'seat-booking',
+              builder: (context, state) => SeatBookingPage(
+                  transactionDetail:
+                      state.extra as (MovieDetail, Transaction))),
         ],
         initialLocation: '/splash',
         debugLogDiagnostics: false); // set the initialLocation to '/splash'
