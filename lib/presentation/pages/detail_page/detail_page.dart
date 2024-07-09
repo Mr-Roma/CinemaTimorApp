@@ -1,4 +1,5 @@
 import 'package:flix_id/domain/entities/movie.dart';
+import 'package:flix_id/domain/entities/movie_detail.dart';
 import 'package:flix_id/presentation/misc/constant.dart';
 import 'package:flix_id/presentation/misc/methods.dart';
 import 'package:flix_id/presentation/pages/detail_page/method_detail_page/background.dart';
@@ -57,7 +58,15 @@ class DetailPage extends ConsumerWidget {
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 24, vertical: 40),
                 child: ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    MovieDetail? movieDetail = asyncMovieDetail.valueOrNull;
+
+                    if (movieDetail != null) {
+                      ref
+                          .read(routerProvider)
+                          .pushNamed('time-booking', extra: movieDetail);
+                    }
+                  },
                   child: Text('Sosa Filme Nee!'),
                   style: ElevatedButton.styleFrom(
                       foregroundColor: backgroundColor,
