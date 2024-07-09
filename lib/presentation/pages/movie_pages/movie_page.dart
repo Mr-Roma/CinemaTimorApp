@@ -5,6 +5,7 @@ import 'package:flix_id/presentation/pages/movie_pages/search_bar.dart';
 import 'package:flix_id/presentation/pages/movie_pages/user_info.dart';
 import 'package:flix_id/presentation/providers/movie/now_playing_provider.dart';
 import 'package:flix_id/presentation/providers/movie/upcoming_provider.dart';
+import 'package:flix_id/presentation/providers/router/router_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -31,7 +32,7 @@ class MoviePage extends ConsumerWidget {
               title: 'Filme Atual',
               movies: ref.watch(nowPlayingProvider),
               onTap: (movie) {
-                // Move to movie detail page
+                ref.read(routerProvider).pushNamed('detail', extra: movie);
               },
             ),
             verticalSpace(30),
@@ -40,8 +41,11 @@ class MoviePage extends ConsumerWidget {
             ...movieList(
               title: 'Filme Tuirmai',
               movies: ref.watch(upcomingProvider),
+              onTap: (movie) {
+                ref.read(routerProvider).pushNamed('detail', extra: movie);
+              },
             ),
-            verticalSpace(100)
+            verticalSpace(100),
           ],
         )
       ],

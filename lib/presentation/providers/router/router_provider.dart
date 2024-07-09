@@ -1,3 +1,5 @@
+import 'package:flix_id/domain/entities/movie.dart';
+import 'package:flix_id/presentation/pages/detail_page/detail_page.dart';
 import 'package:flix_id/presentation/pages/login_page/login_page.dart';
 import 'package:flix_id/presentation/pages/main_page/main_page.dart';
 import 'package:flix_id/presentation/pages/register_page/register_page.dart';
@@ -27,6 +29,11 @@ Raw<GoRouter> router(RouterRef ref) => GoRouter(
               name: 'splash',
               builder: (context, state) =>
                   SplashPage()), // add the SplashPage route
+          GoRoute(
+              path: '/detail',
+              name: 'detail',
+              builder: (context, state) => DetailPage(
+                  movie: state.extra as Movie)), // add the SplashPage route
         ],
         initialLocation: '/splash',
         debugLogDiagnostics: false); // set the initialLocation to '/splash'
